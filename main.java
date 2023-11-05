@@ -14,7 +14,7 @@ public class main {
         password = inp.nextLine();
 
         if (userName.equals("serkanagdas")){
-            if (password.equals("121212serkan")) {
+            if (password.equals("serkan123")) {
                 System.out.print("Sisteme hoşgeldiniz");
             }else
                 System.out.print("Şifrenizi hatalı değiştirmek ister misiniz?\n" +
@@ -28,7 +28,7 @@ public class main {
                     System.out.print("Lütfen yeni şifrenizi giriniz =");
                     inp.nextLine();
                     password = inp.nextLine();
-                    if (password.equals("Esatgs123#")){
+                    if (password.equals("serkan123")){
                         System.out.print("Şifre oluşturulamadı, lütfen başka şifre giriniz");
                     }else
                         System.out.println("Şifre oluşturuldu");
